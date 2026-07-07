@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request
 from services.openai_service import get_response
-import markdown
+#import markdown
 
 app = Flask(__name__)
 
